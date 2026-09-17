@@ -11,7 +11,8 @@
     "phone": "(47) 98880-9407",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "seguranca-eletronica",
@@ -25,7 +26,8 @@
     "phone": "(45) 99947-1847",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "adim-seguros",
@@ -35,11 +37,12 @@
     "description": "Seguros",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento. Falar com Rodrigo.",
     "city": "Balneário Camboriú",
-    "address": "",
+    "address": "Av. Brasil, 2016 - Sala 03, Centro, Balneário Camboriú / SC",
     "phone": "(47) 99902-0052",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "agcell-telefonia",
@@ -53,7 +56,8 @@
     "phone": "(47) 99221-0062",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "ayty-higienizacao",
@@ -67,7 +71,8 @@
     "phone": "(47) 99762-2130",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "a-mare-odontologia-orofacial",
@@ -81,7 +86,8 @@
     "phone": "(47) 99628-9267",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "atelie-restaura",
@@ -95,7 +101,8 @@
     "phone": "(47) 99172-3999",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "blends-distribuidora",
@@ -109,7 +116,8 @@
     "phone": "(47) 3311-1584",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "body-laser-clinica",
@@ -123,7 +131,8 @@
     "phone": "(47) 3514-9725",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "bmw-coding-brasil",
@@ -137,7 +146,8 @@
     "phone": "(47) 99110-7262",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "bc-telas",
@@ -151,7 +161,8 @@
     "phone": "(47) 3081-5139",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "big-chaveiro",
@@ -171,7 +182,8 @@
       "Cópia de chaves",
       "Codificação automotiva",
       "Abertura de portas"
-    ]
+    ],
+    "published": false
   },
   {
     "id": "boutique-das-carnes",
@@ -181,11 +193,12 @@
     "description": "Carnes, vinhos e mais",
     "how_to_use": "Informe que você é cliente Adim Aluguéis e use o cupom Adim10.",
     "city": "Balneário Camboriú",
-    "address": "",
+    "address": "R. Portugal, 261 - Nações, Balneário Camboriú / SC",
     "phone": "(47) 99763-3756",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "cafeteria-da-praca",
@@ -199,7 +212,8 @@
     "phone": "(47) 99919-9581",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "casa-brasileira-moveis-planejados",
@@ -213,7 +227,8 @@
     "phone": "(47) 99219-5576",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "ceo",
@@ -227,7 +242,8 @@
     "phone": "(47) 3363-5696",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "drive-experience-boca-mafra",
@@ -241,7 +257,8 @@
     "phone": "(47) 99695-2504",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "doctor-dog",
@@ -255,7 +272,8 @@
     "phone": "(47) 3363-5696",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "exc-exclusive-car-rental",
@@ -269,7 +287,8 @@
     "phone": "(48) 99969-2738",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "elementum-decor",
@@ -283,7 +302,8 @@
     "phone": "(47) 98923-7615",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "get-it",
@@ -293,11 +313,12 @@
     "description": "Inglês e espanhol",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Balneário Camboriú",
-    "address": "",
+    "address": "Rua 500, 935 - Centro, Balneário Camboriú / SC",
     "phone": "(47) 3367-3425",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "jacare-vermelho",
@@ -311,7 +332,8 @@
     "phone": "(47) 99249-7282",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "imparaveis-unic-sante-odontologia",
@@ -325,7 +347,8 @@
     "phone": "(47) 98474-9270",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "lepton",
@@ -339,7 +362,8 @@
     "phone": "(47) 99222-2428",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "libran-studio",
@@ -353,7 +377,8 @@
     "phone": "(47) 98825-3119",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "nex-energia-solar",
@@ -367,7 +392,8 @@
     "phone": "(47) 99957-0869",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "nortan-contabilidade",
@@ -381,7 +407,8 @@
     "phone": "(47) 99624-2669",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "oral-sin-implantes",
@@ -391,11 +418,12 @@
     "description": "Implantes dentários",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Balneário Camboriú",
-    "address": "",
+    "address": "Rua Alvin Bauer, 401 - Centro, Balneário Camboriú / SC",
     "phone": "(47) 3047-8888",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "ortobom-meia-praia",
@@ -405,11 +433,12 @@
     "description": "Loja de colchões",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Itapema",
-    "address": "",
+    "address": "Av. Nereu Ramos, 3344 - Sala 11, Meia Praia, Itapema / SC",
     "phone": "(48) 99900-4369",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "prisma-energia-solar",
@@ -423,7 +452,8 @@
     "phone": "(47) 99221-0062",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "pizza-deck",
@@ -433,11 +463,12 @@
     "description": "Pizzaria",
     "how_to_use": "Informe que você é cliente Adim Aluguéis e use o cupom Adim10.",
     "city": "Balneário Camboriú",
-    "address": "",
+    "address": "Rua 300, 19 - Centro, Balneário Camboriú / SC",
     "phone": "(47) 99957-0869",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "raisa-isernhagen",
@@ -451,7 +482,8 @@
     "phone": "(47) 99918-9261",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "sorrix-bc-odontologia",
@@ -461,11 +493,12 @@
     "description": "Limpeza, restaurações e implante dentário",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Balneário Camboriú",
-    "address": "",
+    "address": "Rua 511, 14 - Centro, Balneário Camboriú / SC",
     "phone": "(47) 99690-9350",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "sul-climatizacao",
@@ -479,7 +512,8 @@
     "phone": "(47) 99669-3765",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "mf-emporio-da-carne",
@@ -489,11 +523,12 @@
     "description": "Açougue",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Itapema",
-    "address": "",
+    "address": "Rua 292, 306 - Ed. La Musique, Sala 04, Meia Praia, Itapema / SC",
     "phone": "(47) 3398-1753",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "laboratorio-adonai",
@@ -503,11 +538,12 @@
     "description": "Centro de exames",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Itapema",
-    "address": "",
+    "address": "Rua 143, 40 - Sala 04, Centro, Itapema / SC",
     "phone": "(47) 99678-7530",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   },
   {
     "id": "premyer",
@@ -521,7 +557,8 @@
     "phone": "(47) 98821-1889",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": false
   },
   {
     "id": "ortobom-costa-dos-sonhos",
@@ -531,10 +568,11 @@
     "description": "Colchões",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento. Falar com Beatriz.",
     "city": "Itapema",
-    "address": "",
+    "address": "Av. Nereu Ramos, 524 - Ed. La Rocca, Sala 6524, Itapema / SC",
     "phone": "(49) 99977-0511",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "published": true
   }
 ]

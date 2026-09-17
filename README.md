@@ -65,6 +65,16 @@ O backend Base44 (entidade `Partner`) foi substituído por dados locais.
 - **Cadastro:** [`src/data/partners.json`](src/data/partners.json) — **38 parceiros**, extraídos do PDF oficial do clube ([`docs/Clube-Beneficios-ADIM.pdf`](docs/Clube-Beneficios-ADIM.pdf)).
 - **Leitura:** [`src/api/partners.js`](src/api/partners.js) expõe `listPartners(sort)`, com a mesma assinatura do antigo `base44.entities.Partner.list()`. Para migrar depois para uma API, CMS ou banco, basta reescrever essa função.
 
+### Publicação
+
+O site mostra apenas os parceiros com `"published": true`. Hoje são **10** — os que tiveram o endereço confirmado. Os outros **28** estão no JSON com `"published": false`, aguardando confirmação dos dados; eles não aparecem em lugar nenhum do site e não entram na contagem da seção "Em números".
+
+Para publicar um parceiro, confirme os dados e vire a flag:
+
+```json
+"published": true
+```
+
 Campos de cada parceiro:
 
 | Campo | Tipo | Obrigatório |
@@ -82,6 +92,7 @@ Campos de cada parceiro:
 | `logo_url` | string | não |
 | `featured` | boolean | não |
 | `services` | array de strings | não — renderiza a seção "Serviços" no modal |
+| `published` | boolean | sim — `false` mantém o parceiro fora do site |
 
 ## O que mudou em relação ao Base44
 
