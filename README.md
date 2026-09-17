@@ -62,7 +62,7 @@ src/
 
 O backend Base44 (entidade `Partner`) foi substituído por dados locais.
 
-- **Cadastro:** [`src/data/partners.json`](src/data/partners.json) — hoje contém **6 registros de exemplo**, que precisam ser trocados pelos parceiros reais exportados do Base44.
+- **Cadastro:** [`src/data/partners.json`](src/data/partners.json) — **38 parceiros**, extraídos do PDF oficial do clube ([`docs/Clube-Beneficios-ADIM.pdf`](docs/Clube-Beneficios-ADIM.pdf)).
 - **Leitura:** [`src/api/partners.js`](src/api/partners.js) expõe `listPartners(sort)`, com a mesma assinatura do antigo `base44.entities.Partner.list()`. Para migrar depois para uma API, CMS ou banco, basta reescrever essa função.
 
 Campos de cada parceiro:
