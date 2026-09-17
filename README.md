@@ -75,6 +75,8 @@ Para publicar um parceiro, confirme os dados e vire a flag:
 "published": true
 ```
 
+> **Atenção:** as listas de `services` foram **inferidas** a partir da coluna "Segmento" do PDF e de pesquisa na web — nenhuma foi confirmada com o parceiro. As dos 10 publicados já estão no ar. Confira com cada estabelecimento antes de considerar o conteúdo definitivo.
+
 Campos de cada parceiro:
 
 | Campo | Tipo | Obrigatório |
@@ -91,7 +93,7 @@ Campos de cada parceiro:
 | `website` | string | não |
 | `logo_url` | string | não |
 | `featured` | boolean | não |
-| `services` | array de strings | não — renderiza a seção "Serviços" no modal |
+| `services` | array de strings | sim — renderiza a seção "Serviços" no modal |
 | `published` | boolean | sim — `false` mantém o parceiro fora do site |
 
 ## O que mudou em relação ao Base44

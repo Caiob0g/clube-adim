@@ -12,7 +12,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Assistência técnica",
+      "Venda de computadores",
+      "Manutenção"
+    ]
   },
   {
     "id": "seguranca-eletronica",
@@ -27,7 +32,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Câmeras de segurança",
+      "Alarmes",
+      "Instalação"
+    ]
   },
   {
     "id": "adim-seguros",
@@ -42,7 +52,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Seguro auto",
+      "Seguro residencial",
+      "Seguro de vida",
+      "Seguro empresarial"
+    ]
   },
   {
     "id": "agcell-telefonia",
@@ -57,7 +73,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Telefonia empresarial",
+      "Planos de celular",
+      "Consultoria"
+    ]
   },
   {
     "id": "ayty-higienizacao",
@@ -72,7 +93,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Higienização de estofados",
+      "Impermeabilização",
+      "Tapetes e cortinas"
+    ]
   },
   {
     "id": "a-mare-odontologia-orofacial",
@@ -87,7 +113,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Odontologia geral",
+      "Harmonização orofacial",
+      "Avaliação"
+    ]
   },
   {
     "id": "atelie-restaura",
@@ -102,7 +133,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Reforma de estofados",
+      "Lavação"
+    ]
   },
   {
     "id": "blends-distribuidora",
@@ -117,7 +152,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Carnes",
+      "Vinhos",
+      "Frutos do mar",
+      "Azeites"
+    ]
   },
   {
     "id": "body-laser-clinica",
@@ -132,7 +173,10 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Depilação a laser"
+    ]
   },
   {
     "id": "bmw-coding-brasil",
@@ -147,7 +191,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Codificação BMW",
+      "Codificação Mini",
+      "Diagnóstico"
+    ]
   },
   {
     "id": "bc-telas",
@@ -162,7 +211,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Redes de proteção",
+      "Telas para alambrado",
+      "Tela mosquiteiro"
+    ]
   },
   {
     "id": "big-chaveiro",
@@ -198,7 +252,14 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Cortes nobres",
+      "Vinhos",
+      "Cervejas",
+      "Queijos",
+      "Delivery"
+    ]
   },
   {
     "id": "cafeteria-da-praca",
@@ -213,7 +274,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Cafeteria",
+      "Confeitaria",
+      "Padaria",
+      "Restaurante"
+    ]
   },
   {
     "id": "casa-brasileira-moveis-planejados",
@@ -228,7 +295,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Móveis planejados",
+      "Projeto sob medida",
+      "Cozinhas e dormitórios"
+    ]
   },
   {
     "id": "ceo",
@@ -243,7 +315,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Estética odontológica",
+      "Avaliação"
+    ]
   },
   {
     "id": "drive-experience-boca-mafra",
@@ -258,7 +334,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Carros de luxo",
+      "Compra e venda"
+    ]
   },
   {
     "id": "doctor-dog",
@@ -273,7 +353,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Adestramento de cães",
+      "Aula experimental"
+    ]
   },
   {
     "id": "exc-exclusive-car-rental",
@@ -288,7 +372,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Locação de veículos",
+      "Transfer"
+    ]
   },
   {
     "id": "elementum-decor",
@@ -303,7 +391,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Decoração de interiores",
+      "Consultoria"
+    ]
   },
   {
     "id": "get-it",
@@ -318,7 +410,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Inglês",
+      "Espanhol",
+      "Aulas presenciais",
+      "Aulas online"
+    ]
   },
   {
     "id": "jacare-vermelho",
@@ -333,7 +431,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Pizza napolitana",
+      "Bar e drinks",
+      "Delivery"
+    ]
   },
   {
     "id": "imparaveis-unic-sante-odontologia",
@@ -348,7 +451,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Odontologia",
+      "Harmonização facial"
+    ]
   },
   {
     "id": "lepton",
@@ -363,7 +470,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Raio-x veterinário",
+      "Radiologia"
+    ]
   },
   {
     "id": "libran-studio",
@@ -378,7 +489,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Projeto de marca",
+      "Identidade visual",
+      "Design"
+    ]
   },
   {
     "id": "nex-energia-solar",
@@ -393,7 +509,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Energia solar",
+      "Projeto e instalação"
+    ]
   },
   {
     "id": "nortan-contabilidade",
@@ -408,7 +528,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Contabilidade",
+      "Abertura de empresa",
+      "Folha de pagamento"
+    ]
   },
   {
     "id": "oral-sin-implantes",
@@ -423,7 +548,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Implantes dentários",
+      "Tratamentos odontológicos",
+      "Avaliação"
+    ]
   },
   {
     "id": "ortobom-meia-praia",
@@ -438,7 +568,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Colchões",
+      "Bases e box",
+      "Travesseiros",
+      "Lençóis e edredons"
+    ]
   },
   {
     "id": "prisma-energia-solar",
@@ -453,7 +589,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Energia solar",
+      "Eficiência energética",
+      "Projeto"
+    ]
   },
   {
     "id": "pizza-deck",
@@ -468,7 +609,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Pizzas",
+      "Forno a lenha",
+      "Delivery",
+      "Pedido pelo app"
+    ]
   },
   {
     "id": "raisa-isernhagen",
@@ -483,7 +630,11 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Projeto de arquitetura",
+      "Design de interiores"
+    ]
   },
   {
     "id": "sorrix-bc-odontologia",
@@ -498,7 +649,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Limpeza",
+      "Restaurações",
+      "Implante dentário"
+    ]
   },
   {
     "id": "sul-climatizacao",
@@ -513,7 +669,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Instalação de ar-condicionado",
+      "Venda de equipamentos",
+      "Manutenção"
+    ]
   },
   {
     "id": "mf-emporio-da-carne",
@@ -528,7 +689,13 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Cortes especiais",
+      "Angus, Hereford e Wagyu",
+      "Espetinhos temperados",
+      "Frangos temperados"
+    ]
   },
   {
     "id": "laboratorio-adonai",
@@ -543,7 +710,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Análises clínicas",
+      "Exames laboratoriais",
+      "Coleta"
+    ]
   },
   {
     "id": "premyer",
@@ -558,7 +730,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": false
+    "published": false,
+    "services": [
+      "Higienização de estofados",
+      "Impermeabilização",
+      "Tapetes e carpetes"
+    ]
   },
   {
     "id": "ortobom-costa-dos-sonhos",
@@ -573,6 +750,12 @@
     "website": "",
     "logo_url": "",
     "featured": false,
-    "published": true
+    "published": true,
+    "services": [
+      "Colchões",
+      "Bases e box",
+      "Travesseiros",
+      "Acessórios"
+    ]
   }
 ]
