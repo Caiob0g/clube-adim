@@ -158,14 +158,20 @@
     "name": "Big Chaveiro",
     "category": "Serviços",
     "benefit": "10% de desconto em serviços",
-    "description": "Fechaduras em geral, cópia de chaves, codificação automotiva, abertura de portas e mais",
+    "description": "Chaveiro",
     "how_to_use": "Informe que você é cliente Adim Aluguéis no atendimento.",
     "city": "Balneário Camboriú",
     "address": "",
     "phone": "(47) 99977-1331",
     "website": "",
     "logo_url": "",
-    "featured": false
+    "featured": false,
+    "services": [
+      "Fechaduras em geral",
+      "Cópia de chaves",
+      "Codificação automotiva",
+      "Abertura de portas"
+    ]
   },
   {
     "id": "boutique-das-carnes",

@@ -81,6 +81,7 @@ Campos de cada parceiro:
 | `website` | string | não |
 | `logo_url` | string | não |
 | `featured` | boolean | não |
+| `services` | array de strings | não — renderiza a seção "Serviços" no modal |
 
 ## O que mudou em relação ao Base44
 

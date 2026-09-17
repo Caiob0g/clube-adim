@@ -89,6 +89,22 @@ export default function PartnerModal({ partner, open, onClose }) {
               </div>
             )}
 
+            {partner.services?.length > 0 && (
+              <div className="mt-6 rounded-3xl bg-stone-50 p-6">
+                <p className="text-xs font-medium uppercase tracking-[0.18em] text-stone-500">Serviços</p>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {partner.services.map((s) => (
+                    <li
+                      key={s}
+                      className="rounded-full border border-stone-200 bg-white px-3 py-1.5 text-xs text-stone-600"
+                    >
+                      {s}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             {contacts.length > 0 && (
               <ul className="mt-6">
                 {contacts.map(({ icon: Icon, label, value, href, external }) => {
