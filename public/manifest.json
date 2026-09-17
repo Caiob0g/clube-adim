@@ -1,0 +1,11 @@
+{
+  "name": "Clube Adim — Benefícios Adim Aluguéis",
+  "short_name": "Clube Adim",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#eb5c14",
+  "icons": [
+    { "src": "/media/logo-adim.png", "sizes": "any", "type": "image/png" }
+  ]
+}
