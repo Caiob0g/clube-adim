@@ -1,8 +1,22 @@
 # Clube Adim
 
-Site de página única do Clube de Benefícios da **Adim Aluguéis** (Balneário Camboriú e Itapema).
+Site de página única do Clube de Benefícios da **Adim Aluguéis**, com a rede de parceiros credenciados de Balneário Camboriú e Itapema. Clientes com contrato de locação ativo consultam a lista, veem a condição negociada com cada estabelecimento e como utilizá-la — sem mensalidade, carteirinha ou cadastro.
 
-Migrado do Base44 (`adimclube.base44.app`) para um projeto React + Vite local, a partir de [PROJETO.MD](PROJETO.MD).
+**No ar:** https://clube-adim.vercel.app
+
+Migrado do Base44 (`adimclube.base44.app`) para um projeto React + Vite, a partir de [PROJETO.MD](PROJETO.MD).
+
+## Deploy
+
+Hospedado na **Vercel**, conectada a este repositório: todo push na branch `main` publica automaticamente, em cerca de 1 minuto. Se um build falhar, a versão anterior continua no ar.
+
+Não há variáveis de ambiente nem serviços externos — o site é estático e os dados dos parceiros são um arquivo JSON do próprio repositório.
+
+| Item | Config |
+|---|---|
+| Comando de build | `npm run build` |
+| Diretório publicado | `dist` |
+| Rotas | `vercel.json` manda toda rota para o `index.html` (SPA) |
 
 ## Rodando
 
