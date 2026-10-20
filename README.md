@@ -6,19 +6,9 @@ Site de página única do Clube de Benefícios da **Adim Aluguéis**, com a rede
 
 Migrado do Base44 (`adimclube.base44.app`) para um projeto React + Vite, a partir de [PROJETO.MD](PROJETO.MD).
 
-## Deploy
-
-Hospedado na **Vercel**, conectada a este repositório: todo push na branch `main` publica automaticamente, em cerca de 1 minuto. Se um build falhar, a versão anterior continua no ar.
-
-Não há variáveis de ambiente nem serviços externos — o site é estático e os dados dos parceiros são um arquivo JSON do próprio repositório.
-
-| Item | Config |
-|---|---|
-| Comando de build | `npm run build` |
-| Diretório publicado | `dist` |
-| Rotas | `vercel.json` manda toda rota para o `index.html` (SPA) |
-
 ## Rodando
+
+Precisa do **Node.js 18 ou mais novo** (com o npm).
 
 ```bash
 npm install
@@ -27,6 +17,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+O site abre em http://localhost:5173.
 
 Build de produção em `dist/`:
 
@@ -40,6 +32,42 @@ Pré-visualizar o build:
 npm run preview
 ```
 
+## Configuração
+
+Não há variáveis de ambiente, chaves nem banco de dados: o site é estático e os dados dos parceiros são um arquivo JSON do próprio repositório. De fora vêm só a fonte Poppins (Google Fonts) e as fotos de cada segmento (Unsplash, em `categoryImages.js`).
+
+## Publicação
+
+Hospedado na **Vercel**, conectada a este repositório: todo push na branch `main` publica automaticamente, em cerca de 1 minuto. Se um build falhar, a versão anterior continua no ar.
+
+| Item | Config |
+|---|---|
+| Comando de build | `npm run build` |
+| Diretório publicado | `dist` |
+| Rotas | `vercel.json` manda toda rota para o `index.html` (SPA) |
+
+O `public/_redirects` faz o mesmo papel caso o site seja hospedado na Netlify.
+
+No build, o `vite.config.js` tira do JavaScript os parceiros com `"published": false`, para que os dados ainda não confirmados não cheguem ao navegador.
+
+## Onde mexer
+
+| Quero mudar… | Arquivo |
+|---|---|
+| Parceiros (incluir, editar, publicar) | `src/data/partners.json` |
+| Categorias e ordem da lista | `src/api/partners.js` (`PARTNER_CATEGORIES`) |
+| Foto de cada categoria | `src/components/club/categoryImages.js` |
+| Frases do carrossel de abertura | `src/components/editorial/TrustSection.jsx` (`slides`) |
+| "Como funciona" | `src/components/editorial/StepsSection.jsx` (`steps`) |
+| Depoimentos | `src/components/club/Testimonials.jsx` (`items`) |
+| Perguntas frequentes | `src/components/club/Faq.jsx` (`items`) |
+| "Em números" | `src/components/editorial/StatsSection.jsx` (parceiros e segmentos são contados sozinhos) |
+| Contatos e links do rodapé | `src/components/editorial/EditorialFooter.jsx` (`channels`, `nav`) |
+| Menu do topo | `src/components/club/Header.jsx` (`links`) |
+| Vídeo, logo e fotos das cidades | `public/media/` |
+| Título e descrição da página | `index.html` |
+| Cores e fonte | `tailwind.config.js` e `src/index.css` |
+
 ## Stack
 
 React 18 · Vite 6 · Tailwind CSS 3 · Framer Motion · lucide-react · react-router-dom
@@ -48,9 +76,12 @@ React 18 · Vite 6 · Tailwind CSS 3 · Framer Motion · lucide-react · react-r
 
 ```
 index.html
-tailwind.config.js · postcss.config.js · vite.config.js
+tailwind.config.js · postcss.config.js · vite.config.js · vercel.json
+PROJETO.MD                     ← extração completa do projeto original no Base44
+docs/
+  Clube-Beneficios-ADIM.pdf    ← PDF oficial com a lista de parceiros
 public/
-  manifest.json
+  manifest.json · _redirects
   media/                       ← mídias baixadas do Base44
     hero-video.mp4
     logo-adim.png
